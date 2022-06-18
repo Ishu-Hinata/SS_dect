@@ -1,0 +1,7 @@
+version: "1.7"
+services:
+  worker:
+    build: .
+    environment:
+      TELEGRAM_TOKEN: $TELEGRAM_TOKEN
+      TELEGRAM_WEBHOOK: $TELEGRAM_WEBHOOK
